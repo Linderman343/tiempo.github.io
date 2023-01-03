@@ -1,0 +1,60 @@
+*{
+    margin:0;
+}
+body{
+    background: #101010;
+}
+header{
+    height: 60px;
+    text-align: center;
+    background: #050505;
+    color: #68ddbd;
+}
+h1{
+    padding: 10px;
+}
+#barra{
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+}
+#transcurrido{
+    
+    color: #050505;
+    display: inline-block;
+    height: 50px;
+    background: #68ddbd;
+}
+#faltante{
+    color: #050505;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    height: 50px;
+    background-color: #ff93b4;
+}
+#por_trans{
+    position: relative;
+    display: inline-block;
+    height: 50%;
+    right: -90%;
+    z-index: 100;
+    background: #68ddbd;
+    
+}
+#por_falt{
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    height: 50%;
+    left: -1px;
+    background: #ff93b4;
+}
+color {
+    color:#038554;
+    color:#03bb85;
+    color:#68ddbd;
+    color:#101010;
+    color:#050505;
+    color:#bb0339;
+}
