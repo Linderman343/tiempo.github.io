@@ -58,3 +58,8 @@ color {
     color:#050505;
     color:#bb0339;
 }
+@media screen and (max-width: 700px){
+header{
+    font-size: 11px;
+}
+}
