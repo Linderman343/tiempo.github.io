@@ -11,7 +11,7 @@ header{
     color: #68ddbd;
 }
 h1{
-    padding: 10px;
+    padding-top: 10px;
 }
 #barra{
     font-size: 20px;
@@ -59,7 +59,12 @@ color {
     color:#bb0339;
 }
 @media screen and (max-width: 700px){
-header{
-    font-size: 11px;
-}
-}
+    header{
+        font-size: 11px;
+    }
+    h3{
+        font-size: 14px;
+        margin-bottom: 10px;
+
+    }
+    }
