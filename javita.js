@@ -2,7 +2,7 @@ let fecha = new Date()
 let actual = fecha.toLocaleString()
 let presente = `${fecha.getMonth() + 1}/${fecha.getDate()}/${fecha.getFullYear()}`
 var timeStart = new Date(presente);
-var timeEnd = new Date("12/31/2024");
+var timeEnd = new Date("09/06/2024");
 // mm-dd-year
 var actualDate = new Date();
 
