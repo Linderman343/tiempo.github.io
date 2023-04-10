@@ -28,7 +28,7 @@ document.getElementById("fachero").innerHTML += `
     }
 </style>
 ` 
-document.getElementById("pasaron").innerHTML = `(Pasaron ${613 - diasTeoria} dias de 730 :3)`
+document.getElementById("pasaron").innerHTML = `(Pasaron ${613 - diasTeoria} dias de 613 :3)`
 /*
 function calculardiasDiscount() {
     //Cantidad de dias
