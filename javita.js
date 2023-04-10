@@ -11,7 +11,7 @@ let cal = timeEnd.getTime() - timeStart.getTime();
 let diasTeoria = Math.round(cal / (1000 * 60 * 60 * 24)) - 1;
 document.getElementById("dias").innerHTML = diasTeoria
 
-let porcentaje = diasTeoria * 100 / 730
+let porcentaje = diasTeoria * 100 / 613
 porcentaje = Math.trunc(porcentaje)
 document.getElementById("por_trans").innerHTML = `${100 - porcentaje}%`
 
@@ -28,7 +28,7 @@ document.getElementById("fachero").innerHTML += `
     }
 </style>
 ` 
-document.getElementById("pasaron").innerHTML = `(Pasaron ${730 - diasTeoria} dias de 730 :3)`
+document.getElementById("pasaron").innerHTML = `(Pasaron ${613 - diasTeoria} dias de 730 :3)`
 /*
 function calculardiasDiscount() {
     //Cantidad de dias
